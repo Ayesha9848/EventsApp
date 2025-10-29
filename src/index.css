@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{--heading:#1E2022;--subtitle:#989090;--logo:#CF2D2D;--stroke:#B0BABF}
+
+
+body { @apply bg-white font-inter; }
+
+
+/* simple spinner */
+.loader{border:4px solid var(--stroke);border-top:4px solid var(--logo);border-radius:50%;width:28px;height:28px;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
